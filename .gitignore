@@ -1,0 +1,4 @@
+# ignore Air Live Reload files
+tmp/
+.air.toml
+gin-bin
