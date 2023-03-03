@@ -3,3 +3,6 @@ tmp/
 .air.toml
 gin-bin
 .env
+
+# build
+crypto-dashboard-backend
