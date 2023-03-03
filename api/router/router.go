@@ -12,6 +12,9 @@ func Setup() *gin.Engine {
 
 	eng.GET("/healthcheck", handlers.GetHealthCheck)
 	eng.GET("/users", handlers.GetUsers)
+	eng.GET("/geminiTicker", handlers.GetGeminiTicker)
+	eng.GET("/geminiEnv", handlers.CheckGeminiEnv)
+	eng.GET("/cryptosymbols", handlers.GetCryptoSymbols)
 
 	return eng
 }
